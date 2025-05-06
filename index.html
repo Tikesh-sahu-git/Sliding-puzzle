@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sliding Puzzle Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sliding Puzzle Game</h1>
+    <div class="game-container">
+        <div class="moves-counter">Moves: <span id="moves">0</span></div>
+        <div class="controls">
+            <button id="shuffle-btn">Shuffle</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div class="puzzle-container" id="puzzle-container">
+            <div class="win-message" id="win-message">
+                <h2>You Win! 🎉</h2>
+                <p>Moves: <span id="win-moves">0</span></p>
+                <button id="play-again-btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="move-sound" src="https://www.soundjay.com/button/sounds/button-16.mp3"></audio>
+    <audio id="win-sound" src="https://www.soundjay.com/human/sounds/applause-8.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
