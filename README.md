@@ -21,16 +21,6 @@ A classic 3x3 sliding puzzle game built with HTML, CSS, and JavaScript. Move the
 3. Arrange all tiles in order from 1 to 8 with the empty space at the bottom right
 4. Try to solve the puzzle in as few moves as possible!
 
-## Installation 💻
-
-No installation required! Just open `index.html` in your browser.
-
-To run locally:
-```bash
-git clone https://github.com/tikesh-sahu-git/sliding-puzzle.git
-cd sliding-puzzle
-open index.html
-
 Project Structure 📂
 sliding-puzzle/
 ├── index.html          # Main HTML file
